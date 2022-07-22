@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contador{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+}
+.contador h1{
+  font-size: 50px;
+}
+.contador button{
+  width: 5vw;
+  height: 5vh;
+  background-color:brown;
+  border: none;
+}
